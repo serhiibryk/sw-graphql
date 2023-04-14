@@ -1,11 +1,22 @@
+import React from 'react'
+import { Layout } from 'antd'
+import { BrowserRouter } from 'react-router-dom'
+
+import Route from './routes'
+
 import './App.css'
+
+const { Content } = Layout
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'></header>
-      <main></main>
-    </div>
+    <Layout>
+      <BrowserRouter>
+        <Content className={'content'}>
+          <Route />
+        </Content>
+      </BrowserRouter>
+    </Layout>
   )
 }
 
