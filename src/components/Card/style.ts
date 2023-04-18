@@ -1,5 +1,4 @@
-import { createUseStyles } from 'react-jss';
-import { pallet } from '../../utils';
+import { createUseStyles } from 'react-jss'
 
 const useStyles = createUseStyles({
   root: {},
@@ -8,10 +7,10 @@ const useStyles = createUseStyles({
     width: '32%',
     minWidth: '140px',
     margin: '10px 5px 5px 5px',
-    backgroundColor: (isDarkMode: boolean) => pallet(isDarkMode).dark,
+    backgroundColor: '#008080',
 
     '& .ant-card-meta-title': {
-      color: (isDarkMode: boolean) => pallet(isDarkMode).color,
+      color: 'black',
     },
 
     '@media (max-width: 899px)': {
@@ -25,6 +24,6 @@ const useStyles = createUseStyles({
   img: {
     objectFit: 'cover',
   },
-});
+})
 
-export default useStyles;
+export default useStyles

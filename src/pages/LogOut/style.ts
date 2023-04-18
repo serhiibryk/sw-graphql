@@ -7,8 +7,6 @@ const useStyles = createUseStyles({
     flexWrap: 'wrap',
     justifyContent: 'center',
     backgroundColor: 'grey',
-    width: '100%',
-    paddingLeft: '40px',
 
     '& .ant-card-cover': {
       display: 'flex',
