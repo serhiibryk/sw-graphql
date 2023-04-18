@@ -42,3 +42,7 @@ declare interface IValueRegister {
   nickname: string
   password: string
 }
+declare interface IFilm {
+  id: string
+  title: string
+}
