@@ -28,3 +28,18 @@ export const pallet = (isDarkMode: boolean) => {
     backGroundHeader: '#8aa1b9',
   }
 }
+
+export const routerListFunc = () => {
+  return [
+    {
+      key: '/',
+      label: 'Main',
+      privat: true,
+    },
+    {
+      key: '/logOut',
+      label: 'Log Out',
+      privat: true,
+    },
+  ]
+}

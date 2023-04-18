@@ -46,3 +46,8 @@ declare interface IFilm {
   id: string
   title: string
 }
+declare interface IRouterListFunc {
+  key: string
+  label: string
+  privat: boolean
+}

@@ -1,11 +1,10 @@
-import { createUseStyles } from 'react-jss';
-import { pallet } from '../../utils';
+import { createUseStyles } from 'react-jss'
 
 const useStyles = createUseStyles({
   root: {
     display: 'flex',
     justifyContent: 'center',
-    backgroundColor: (isDarkMode: boolean) => pallet(isDarkMode).backGround,
+    backgroundColor: 'grey',
   },
   LoginForm: {
     minHeight: 'calc(100vh - 134px)',
@@ -29,7 +28,7 @@ const useStyles = createUseStyles({
     borderBottom: '0rem solid ',
     borderStyle: 'solid',
     borderWidth: '2px',
-    color: (isDarkMode: boolean) => pallet(isDarkMode).color,
+    color: 'black',
     display: 'inline-block',
     textAlign: 'start',
     margin: '1em 0 0 0 ',
@@ -38,12 +37,12 @@ const useStyles = createUseStyles({
     fontSize: '15px',
     whiteSpace: 'nowrap',
     overflowX: 'hidden',
-    backgroundColor: (isDarkMode: boolean) => pallet(isDarkMode).dark,
+    backgroundColor: 'grey',
   },
   registerNowLink: {
-    color: (isDarkMode: boolean) => pallet(isDarkMode).color,
+    color: 'black',
     fontWeight: 'bold',
   },
-});
+})
 
-export default useStyles;
+export default useStyles
