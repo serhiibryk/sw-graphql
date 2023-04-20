@@ -8,12 +8,6 @@ export const ALL_FILMS = gql`
         id
         title
       }
-      edges {
-        node {
-          id
-          title
-        }
-      }
     }
   }
 `

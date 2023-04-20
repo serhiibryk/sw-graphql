@@ -42,33 +42,6 @@ const Header = () => {
     })
   }, [location.pathname])
 
-  // const menu = (
-  //   <Menu
-  //     selectable
-  //     selectedKeys={activeList}
-  //     onClick={(path) => {
-  //       push(path.key)
-  //     }}
-  //     items={[
-  //       ...routerListFunc().map((item) => {
-  //         if (token && item.key === '/login') {
-  //           return {
-  //             key: '/login',
-  //             label: 'Log out',
-  //           }
-  //         }
-  //         if (item.privat === true && !token) {
-  //           return null
-  //         }
-  //         return {
-  //           key: item.key,
-  //           label: item.label,
-  //         }
-  //       }),
-  //     ]}
-  //   />
-  // )
-
   return (
     <div className={classes.root}>
       <HeaderAnt>
@@ -82,16 +55,6 @@ const Header = () => {
             />
           </div>
 
-          {/* <Dropdown
-            overlay={menu}
-            className={classes.dropmenu}
-            // visible={true}
-            overlayClassName={classes.overlay}
-          >
-            <Typography.Link>
-              <Space className={classes.menuDropText}>MENU</Space>
-            </Typography.Link>
-          </Dropdown> */}
           <Button
             className={classes.modalShowButton}
             type={'primary'}

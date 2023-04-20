@@ -43,3 +43,20 @@ export const routerListFunc = () => {
     },
   ]
 }
+
+export const categories = () => {
+  return [
+    {
+      label: 'Films',
+      key: 'ALL_FILMS',
+    },
+    {
+      label: 'Planets',
+      key: 'ALL_PLANETS',
+    },
+    {
+      label: 'Starships',
+      key: 'ALL_STARSHIPS',
+    },
+  ]
+}
